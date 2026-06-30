@@ -1,0 +1,55 @@
+# Swarm64 DA PostgreSQL Cluster Configuration
+# ItalyWorld R&D / Cesare Semovigo - Gotham v3 Bridge
+# Compatible with Swarm64 DA 4.0+ | pgvector 0.7+
+
+cluster:
+  name: memorydata-swarm64
+  nodes:
+    - host: pg-primary
+      port: 5432
+      role: primary
+      fpga: false        # set true if Xilinx Alveo U250 present
+    - host: pg-replica-1
+      port: 5432
+      role: replica
+      fpga: false
+
+database:
+  name: memorydata_swarm64
+  user: adam_agent
+  extensions:
+    - vector          # pgvector
+    - uuid-ossp
+    - swarm64da       # Swarm64 DA accelerator (optional, graceful fallback)
+
+swarm64da:
+  enable_columnar: true
+  parallel_workers: 64        # max parallelism per Swarm64 DA spec
+  compression_level: 5        # 5x-25x depending on data type
+  fpga_enabled: false
+  columnar_tables:
+    - agent_memory
+    - worm_audit_log
+
+vector_index:
+  type: ivfflat
+  dim: 1536
+  ivfflat_lists: 100
+  distance_metric: cosine
+
+gotham_v3:
+  worm_seal_on_maintenance: true
+  entropy_bound_sigma: 0.059
+  compliance:
+    nist: SP800-208
+    fips: FIPS-202
+    darpa: DICE
+  log_dir: ./gotham_v3_logs
+
+adam_orchestrator:
+  extraction_workers: 8
+  maintenance_workers: 4
+  llm_model: gpt-4o-mini
+  embedding_model: text-embedding-3-small
+  embedding_dim: 1536
+  sigma_bound: 0.059
