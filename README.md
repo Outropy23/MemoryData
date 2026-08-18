@@ -306,18 +306,3 @@ The default presets target OpenAI-compatible chat and embedding endpoints, so an
 <br/>
 Pass <code>--force</code> to delete saved results, rebuild local agent state, and reset supported external persistence before the run. Use <code>--retry_failed_queries</code> to retry previously failed queries instead of skipping them when resuming.
 </details>
-
-
-## 📒 Citation
-
-If you find this benchmark suite useful in your research, please cite:
-
-```bibtex
-@article{zhoumemorydata2026,
-    title={Are We Ready For An Agent-Native Memory System?},
-    author={Wei Zhou and Xuanhe Zhou and Shaokun Han and Hongming Xu and Guoliang Li and Zhiyu Li and Feiyu Xiong and Fan Wu},
-    year={2026},
-    journal={arXiv preprint arXiv:2606.24775},
-    url={https://arxiv.org/abs/2606.24775}
-}
-```

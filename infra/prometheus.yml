@@ -1,6 +1,0 @@
-global:
-  scrape_interval: 5s
-scrape_configs:
-  - job_name: adam_orchestrator
-    static_configs:
-      - targets: ['otel-collector:8889']
