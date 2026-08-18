@@ -4,7 +4,7 @@
 **Title of Invention:**
 System and Method for Tamper-Resistant, Entropy-Gated, Hardware-Accelerated Memory Management in Large Language Model Agents
 
-**Applicant:** ItalyWorld R&D Research Team — Ing. Cesare Semovigo
+**Applicant:** Outropy23
 **Filing Basis:** 35 U.S.C. § 111(b)
 **Date Prepared:** 2026-06-30
 
@@ -20,7 +20,7 @@ The present invention relates to memory management systems for artificial intell
 
 ## 2. BACKGROUND
 
-Existing LLM agent memory systems (see Zhou et al., arXiv:2606.24775, 2026) employ exclusively software-based backends without hardware acceleration, without entropy-based quality control on memory insertion, and without tamper-evident audit mechanisms compliant with NIST, FIPS, or DARPA standards.
+Existing LLM agent memory systems employ exclusively software-based backends without hardware acceleration, without entropy-based quality control on memory insertion, and without tamper-evident audit mechanisms compliant with NIST, FIPS, or DARPA standards.
 
 ---
 
@@ -50,5 +50,5 @@ A memory management system for LLM agents providing tamper-resistant, entropy-ga
 
 ---
 
-*ItalyWorld R&D / Ing. Cesare Semovigo — 2026-06-30*
+*Outropy23 — 2026-06-30*
 *Technical disclosure only. Consult a registered patent attorney before filing.*

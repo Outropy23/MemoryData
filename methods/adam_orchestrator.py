@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
 Adam Orchestrator v1 - Multi-Agent Extraction & Maintenance Modules
-Replaces single-LLM extraction/maintenance in OpenDataBox/MemoryData
+Replaces single-LLM extraction/maintenance in MemoryData
 Architecture: Parallel swarm of specialized sub-agents coordinated by Adam
-ItalyWorld R&D / Cesare Semovigo - Gotham v3 Bridge
+Outropy23 - Gotham v3 Bridge
 """
 
 import json

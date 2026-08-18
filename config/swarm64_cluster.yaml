@@ -1,5 +1,5 @@
 # Swarm64 DA PostgreSQL Cluster Configuration
-# ItalyWorld R&D / Cesare Semovigo - Gotham v3 Bridge
+# Outropy23 - Gotham v3 Bridge
 # Compatible with Swarm64 DA 4.0+ | pgvector 0.7+
 
 cluster:

@@ -2,7 +2,7 @@
 """
 Adam Orchestrator v1 — OpenTelemetry Instrumented
 Emits OTLP traces + latency histograms for Extraction and Maintenance pipelines.
-ItalyWorld R&D / Cesare Semovigo — Gotham v3 Bridge
+Outropy23 — Gotham v3 Bridge
 
 Instrumentation coverage:
   - Span per extract_parallel() call (root span)
@@ -44,7 +44,7 @@ def _init_otel(
         "service.version": "1.0.0",
         "gotham.version": "v3",
         "project": "memorydata-swarm64",
-        "owner": "Cesare Semovigo / ItalyWorld R&D",
+        "owner": "Outropy23",
     })
     tp = TracerProvider(resource=resource)
     tp.add_span_processor(

@@ -2,7 +2,7 @@
 """
 Gotham v3 Supervisor
 WORM-style governance, entropy control, NIST SP800-208 / FIPS 202 / DARPA DICE alignment
-ItalyWorld R&D / Cesare Semovigo
+Outropy23
 
 Compliance references:
   - NIST SP800-208: Stateful Hash-Based Signature Schemes (chain integrity)
@@ -146,7 +146,7 @@ class GothamV3Supervisor:
     def export_compliance_manifest(self) -> Dict[str, Any]:
         """Return a DARPA DICE-style attestation manifest."""
         return {
-            "owner": "Cesare Semovigo / ItalyWorld R&D",
+            "owner": "Outropy23",
             "system": "Gotham v3 + Adam Orchestrator",
             "session_id": self._session_id,
             "compliance": self.COMPLIANCE,

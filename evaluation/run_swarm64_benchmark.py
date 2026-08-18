@@ -2,7 +2,7 @@
 """
 MemoryData Benchmark Harness — Swarm64MemoryBackend
 Wires evaluation/ scripts against the PostgreSQL + Swarm64 DA backend.
-ItalyWorld R&D / Cesare Semovigo — Gotham v3 Bridge
+Outropy23 — Gotham v3 Bridge
 
 Usage:
     python evaluation/run_swarm64_benchmark.py \

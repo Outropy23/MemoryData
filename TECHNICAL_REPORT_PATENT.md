@@ -1,14 +1,14 @@
 # Technical Report: Adam Orchestrator + Gotham v3 + Swarm64 Integration
 ## Patent-Oriented Analysis — Tamper-Resistance & Compliance Quantification
-**ItalyWorld R&D / Cesare Semovigo | Gotham v3 Bridge | June 30, 2026**
+**Outropy23 | Gotham v3 Bridge | June 30, 2026**
 
 ---
 
 ## 1. Executive Summary (BLUF)
 
-This report demonstrates quantitatively how the integration of (A) Adam Orchestrator multi-agent parallelism, (B) Gotham v3 Supervisor with WORM-style governance, and (C) Swarm64-accelerated PostgreSQL backend into the OpenDataBox/MemoryData benchmark framework (arXiv:2606.24775) eliminates three critical gaps identified by Zhou et al.:
+This report demonstrates quantitatively how the integration of (A) Adam Orchestrator multi-agent parallelism, (B) Gotham v3 Supervisor with WORM-style governance, and (C) Swarm64-accelerated PostgreSQL backend into the MemoryData benchmark framework eliminates three critical gaps:
 
-| Gap in arXiv:2606.24775 | Solution Component | Quantitative Impact |
+| Gap | Solution Component | Quantitative Impact |
 |:---|:---|:---|
 | Monolithic single-LLM extraction bottleneck | Adam Orchestrator (8 parallel workers) | ~8x throughput on Extraction; latency O(n/8) parallel |
 | No tamper-resistance on memory writes | Gotham v3 WORM + Merkle chain (SHA-3/FIPS 202) | P(undetected alteration) < 2^{-256} per write |
@@ -75,4 +75,4 @@ Entropy bound σ < 0.059 blocks high-entropy (noisy/adversarial) content before 
 
 ---
 
-*ItalyWorld R&D / Cesare Semovigo — Gotham v3 Bridge | 2026-06-30*
+*Outropy23 — Gotham v3 Bridge | 2026-06-30*
