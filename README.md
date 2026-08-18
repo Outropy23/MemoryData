@@ -23,8 +23,7 @@
   <a href="#-benchmark-overview">Benchmarks</a> &nbsp;•&nbsp;
   <a href="#-configuration-conventions">Config</a> &nbsp;•&nbsp;
   <a href="#-output-artifacts">Artifacts</a> &nbsp;•&nbsp;
-  <a href="#-faq">FAQ</a> &nbsp;•&nbsp;
-  <a href="#-citation">Citation</a>
+  <a href="#-faq">FAQ</a>
 </div>
 
 <br/>
@@ -123,7 +122,7 @@ Datasets are **not** bundled with this repository. Place them under `datasets/` 
 
 | Benchmark | Default path | Format | Notes |
 | --- | --- | --- | --- |
-| MemoryAgentBench | `datasets/MemoryAgentBench/eval_dataset_collection/` | HuggingFace `save_to_disk` directory | Falls back to `ai-hyz/MemoryAgentBench` if the local copy is absent |
+| MemoryAgentBench | `datasets/MemoryAgentBench/eval_dataset_collection/` | HuggingFace `save_to_disk` directory | Place the dataset locally under the path above |
 | LoCoMo | `datasets/LoCoMo/rq1_4cat_600_dist/locomo_4cat_600_dist.json` | JSON file | Used by the full and category-specific LoCoMo presets |
 | LongBench | `datasets/longBench_rep150_proportional/datasets` | HuggingFace `save_to_disk` directory | Targets the proportional subset |
 | MemBench | `datasets/MemBench/MemData/FirstAgent/*.json` | JSON files | `simple`, `noisy`, `knowledge_update`, `highlevel`, `RecMultiSession` |
@@ -228,7 +227,7 @@ The taxonomy below follows the grouping used in the main RQ1 effectiveness table
 
 | Benchmark family | Config files | Task focus | Expected input format |
 | --- | --- | --- | --- |
-| MemoryAgentBench / Accurate Retrieval | `benchmark/memoryagentbench/Accurate_Retrieval/config/EventQA/Eventqa_full.yaml`<br>`benchmark/memoryagentbench/Accurate_Retrieval/config/LongMemEval/Longmemeval_s.yaml` | Question answering and long-memory retrieval under curated MemoryAgentBench splits | HuggingFace `save_to_disk` copy under `datasets/MemoryAgentBench/eval_dataset_collection/`, or fallback to `ai-hyz/MemoryAgentBench` |
+| MemoryAgentBench / Accurate Retrieval | `benchmark/memoryagentbench/Accurate_Retrieval/config/EventQA/Eventqa_full.yaml`<br>`benchmark/memoryagentbench/Accurate_Retrieval/config/LongMemEval/Longmemeval_s.yaml` | Question answering and long-memory retrieval under curated MemoryAgentBench splits | HuggingFace `save_to_disk` copy under `datasets/MemoryAgentBench/eval_dataset_collection/` |
 | MemoryAgentBench / Conflict Resolution | `benchmark/memoryagentbench/Conflict_Resolution/config/Factconsolidation_mh_6k.yaml` | Resolving conflicting facts across long interaction histories | Same MemoryAgentBench loading path as above |
 | MemoryAgentBench / Test-Time Learning | `benchmark/memoryagentbench/Test_Time_Learning/config/ICL/ICL_banking77.yaml` | In-context adaptation and label-space memorization | Same MemoryAgentBench loading path as above |
 | LoCoMo | `benchmark/locomo/config/Locomo_qa_4cat_600_dist.yaml`<br>`benchmark/locomo/config/Locomo_qa_4cat_600_dist_cat1_multi_hop.yaml`<br>`benchmark/locomo/config/Locomo_qa_4cat_600_dist_cat2_temporal.yaml`<br>`benchmark/locomo/config/Locomo_qa_4cat_600_dist_cat3_open_domain.yaml`<br>`benchmark/locomo/config/Locomo_qa_4cat_600_dist_cat4_single_hop.yaml` | Conversational QA over long dialogues, with full and category-specific subsets | JSON file, typically `datasets/LoCoMo/rq1_4cat_600_dist/locomo_4cat_600_dist.json` |
@@ -286,7 +285,7 @@ When `--artifact_root` is specified, the pipeline preserves the same internal `r
 <details>
 <summary><b>Are the datasets bundled with the repository?</b></summary>
 <br/>
-No. Datasets are not distributed here. Place them under <code>datasets/</code> following the paths in the <a href="#-quick-start">Quick Start</a> section. MemoryAgentBench additionally falls back to the <code>ai-hyz/MemoryAgentBench</code> HuggingFace mirror when no local copy is present.
+No. Datasets are not distributed here. Place them under <code>datasets/</code> following the paths in the <a href="#-quick-start">Quick Start</a> section.
 </details>
 
 <details>
