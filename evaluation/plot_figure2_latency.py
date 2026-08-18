@@ -2,7 +2,7 @@
 """
 Figure 2 — Latency Distribution Plotter
 Generates publication-quality plots from Swarm64 benchmark results.
-Outropy23 — Gotham v3 Bridge
+Cesare Semovigo — Gotham v3 Bridge
 
 Usage:
     python evaluation/plot_figure2_latency.py \
@@ -51,7 +51,7 @@ def plot_figure2(data: dict, output: str) -> None:
     fig = plt.figure(figsize=(18, 10))
     fig.suptitle(
         "Figure 2 — Adam Orchestrator + Swarm64 Backend: Latency Distributions\n"
-        "Workloads: MemoryData Benchmark Suite · Outropy23 / Gotham v3",
+        "Workloads: MemoryData Benchmark Suite · Cesare Semovigo / Gotham v3",
         fontsize=13,
         fontweight="bold",
         y=0.98,

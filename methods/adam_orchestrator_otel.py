@@ -2,7 +2,7 @@
 """
 Adam Orchestrator v1 — OpenTelemetry Instrumented
 Emits OTLP traces + latency histograms for Extraction and Maintenance pipelines.
-Outropy23 — Gotham v3 Bridge
+Cesare Semovigo — Gotham v3 Bridge
 
 Instrumentation coverage:
   - Span per extract_parallel() call (root span)

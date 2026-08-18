@@ -4,7 +4,7 @@
 **Title of Invention:**
 System and Method for Tamper-Resistant, Entropy-Gated, Hardware-Accelerated Memory Management in Large Language Model Agents
 
-**Applicant:** Outropy23
+**Applicant:** Ing. Cesare Semovigo
 **Filing Basis:** 35 U.S.C. § 111(b)
 **Date Prepared:** 2026-06-30
 
@@ -50,5 +50,5 @@ A memory management system for LLM agents providing tamper-resistant, entropy-ga
 
 ---
 
-*Outropy23 — 2026-06-30*
+*Ing. Cesare Semovigo — 2026-06-30*
 *Technical disclosure only. Consult a registered patent attorney before filing.*

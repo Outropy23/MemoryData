@@ -3,7 +3,7 @@
 Swarm64 Accelerated PostgreSQL Backend
 Replaces standard vector/SQL backends in MemoryData
 Compatible with Swarm64 DA 4.0+ (FPGA optional, columnar acceleration mandatory)
-Outropy23 - Gotham v3 Bridge
+Cesare Semovigo - Gotham v3 Bridge
 """
 
 import psycopg2

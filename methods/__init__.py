@@ -8,8 +8,8 @@ listed here so future tables can reuse one canonical source of truth.
 from __future__ import annotations
 
 PAPER_METHOD_NAMES = {
-    "adam_orchestrator": "Adam Orchestrator (Outropy23)",
-    "swarm64": "Swarm64 PG Backend (Outropy23)",
+    "adam_orchestrator": "Adam Orchestrator (Cesare Semovigo)",
+    "swarm64": "Swarm64 PG Backend (Cesare Semovigo)",
     "long_context": "Long Context",
     "bm25": "BM25",
     "embedding_rag": "Dense Retrieval",
