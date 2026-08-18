@@ -3,7 +3,7 @@
 Adam Orchestrator v1 - Multi-Agent Extraction & Maintenance Modules
 Replaces single-LLM extraction/maintenance in MemoryData
 Architecture: Parallel swarm of specialized sub-agents coordinated by Adam
-Cesare Semovigo - Gotham v3 Bridge
+Outropy23 — MemoryData Project
 """
 
 import json

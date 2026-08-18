@@ -1,0 +1,26 @@
+# AUTHORS — MemoryData Project
+
+## Principal Author & Owner
+
+**Outropy23** — GitHub: https://github.com/Outropy23
+ItalyWorld R&D
+
+All original source code, architecture design, benchmark framework, Gotham v3 Supervisor,
+Adam Orchestrator, Swarm64 backend integration, and patent disclosures in this repository
+are authored and owned by Outropy23.
+
+## Repository History
+
+- Initial commit: 2026-06-21 (GitHub: code4DB — benchmark dataset upload, authorized)
+- Core code upload: 2026-06-23 (GitHub: Beliefuture — authorized collaborator contribution)
+- Adam Orchestrator / Gotham v3 / Swarm64 integration: 2026-06-30 (Outropy23)
+- OpenTelemetry instrumentation + USPTO patent skeleton: 2026-06-30 (Outropy23)
+
+## Third-Party Method Implementations (Benchmark Baselines)
+
+The `methods/` subdirectory contains implementations of third-party memory systems
+included solely for academic benchmark comparison. Each sub-method retains its original
+authors and licenses. See each subfolder for attribution.
+
+---
+Last updated: 2026-08-18

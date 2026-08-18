@@ -1,6 +1,6 @@
 # Technical Report: Adam Orchestrator + Gotham v3 + Swarm64 Integration
 ## Patent-Oriented Analysis — Tamper-Resistance & Compliance Quantification
-**Cesare Semovigo | Gotham v3 Bridge | June 30, 2026**
+**Outropy23 | ItalyWorld R&D | June 30, 2026**
 
 ---
 
@@ -75,4 +75,4 @@ Entropy bound σ < 0.059 blocks high-entropy (noisy/adversarial) content before 
 
 ---
 
-*Cesare Semovigo — Gotham v3 Bridge | 2026-06-30*
+*Outropy23 — ItalyWorld R&D | 2026-06-30*

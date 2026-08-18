@@ -2,7 +2,7 @@
 """
 Merkle Chain - Tamper-Evidence Engine
 FIPS 202 SHA-3 leaf hashing | NIST SP800-208 chain construction
-Cesare Semovigo
+Outropy23 — MemoryData Project
 """
 
 import hashlib

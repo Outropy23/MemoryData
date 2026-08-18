@@ -2,7 +2,7 @@
 """
 Gotham v3 Supervisor
 WORM-style governance, entropy control, NIST SP800-208 / FIPS 202 / DARPA DICE alignment
-Cesare Semovigo
+Outropy23 — MemoryData Project
 
 Compliance references:
   - NIST SP800-208: Stateful Hash-Based Signature Schemes (chain integrity)
