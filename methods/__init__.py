@@ -8,6 +8,8 @@ listed here so future tables can reuse one canonical source of truth.
 from __future__ import annotations
 
 PAPER_METHOD_NAMES = {
+    "adam_orchestrator": "Adam Orchestrator (Cesare Semovigo / ItalyWorld R&D)",
+    "swarm64": "Swarm64 PG Backend (Cesare Semovigo / ItalyWorld R&D)",
     "long_context": "Long Context",
     "bm25": "BM25",
     "embedding_rag": "Dense Retrieval",
@@ -79,7 +81,8 @@ PAPER_METHOD_VARIANT_NAMES = {
 }
 
 PAPER_METHOD_GROUPS = {
-    "long_context": "control",
+    "adam_orchestrator": "operational_stack",
+    "swarm64": "operational_stack",
     "bm25": "retrieval_baseline",
     "embedding_rag": "retrieval_baseline",
     "graph_rag": "retrieval_baseline",
